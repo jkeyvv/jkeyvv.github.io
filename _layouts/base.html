@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <div id="post">
+      <div id="pjax" class="fullscreen">
+      {{ content }}
+      {% include copyright.html %}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
